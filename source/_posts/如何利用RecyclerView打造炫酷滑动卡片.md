@@ -1,6 +1,6 @@
 ---
 title: 如何利用RecyclerView打造炫酷滑动卡片
-date: 2016-11-11 10:29:46
+date: 2016-11-10 10:29:46
 tags:
 ---
 
@@ -27,7 +27,7 @@ tags:
 
 ## 开工
 
-###思考
+### 思考
 
 一般这种View都是自定义的，然后重写onLayout，但是有木有更简单的方法呢？由于项目里一直使用RecyclerView，那么能不能用RecyclerView来实现这种效果呢？能，当然能啊！得力于RecyclerView优雅的扩展性，我们完全可以自定义一个LayoutManager来实现嘛。
 
